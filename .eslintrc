@@ -1,0 +1,14 @@
+{
+    "root": true,
+    "extends": [
+        "airbnb-base",
+        "airbnb-typescript/base",
+        "eslint-config-prettier"
+    ],
+    "rules": {
+        "no-underscore-dangle": "off"
+    },
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    }
+}
